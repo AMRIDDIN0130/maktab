@@ -1,0 +1,42 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+    position: inherit;
+}
+.box:hover{
+    background-color: #b81523;
+    outline: solid 10px rgb(5, 209, 50);}
+    .container{
+        background-color: aqua;
+        height: 300px;
+        text-align: center;
+    }
+    .bir{
+        background-color: blue;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .ikki{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 3px;
+        
+        background-color: chartreuse;
+        /* z-index: 2; */
+    }
+    .uch{
+        background-color: red;
+        position:absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .container{
+        position: relative;
+    }
+  

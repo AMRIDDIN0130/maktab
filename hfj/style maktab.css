@@ -1,0 +1,394 @@
+body{
+margin:0;
+
+}
+.about{ position: fixed;
+    background-color: rgba(201, 233, 225, 0.945);
+ width: 100%; 
+    height: 70px;
+    color: rgba(255, 255, 255, 0.87);
+   padding: 0.5%;
+  
+}
+.relative{
+    margin-top: 0;
+    background: url("./depositphotos_125278130-stock-photo-smiling-school-girl-with-books-removebg-preview.png"  )  no-repeat, linear-gradient(#0b58cacc, rgb(4, 6, 8)) ,url("./background.jpg");
+    padding: 1px;
+    height: 650px;
+    width: 1350px;
+    background-color: aqua;
+}
+.relative-2{
+    font-family: 'Courier New', Courier, monospace;
+    padding:0; position: relative;
+    font-style: normal;
+    padding-top: 2cm;
+    padding-left: 7.9cm;
+    height: 300px;
+    width: 1051px;
+    background-color: rgb(244, 245, 245);
+    
+}
+
+.welcome{font-family: 'Courier New', Courier, monospace;
+    padding-left: 11cm;
+   padding-top: 5cm;
+    text-align: left;
+}
+.button{
+    margin-top: 1cm;
+    width: 100px;
+    margin: auto;
+    
+    border: 2px solid white;
+    padding: 6px;
+    size: 0.5cm;
+}
+/* .box{ */
+    /* width: 100px;
+    height: 100px; */
+   
+    /* margin: 5px; */
+    /* display: inline-block; */
+
+
+/* .box:hover{
+    background-color: #b81523;
+    outline: solid 10px rgb(5, 209, 50);} */
+    .container{
+        background-color: aqua;
+        height: 300px;
+        text-align: center;
+    }
+    .bir{
+        background-size: cover;
+        /* display: inline-block; */
+       /* padding-bottom: 2cm; */
+        padding-left: 5px;
+        margin-top: 6px;
+             height: 3.5cm;
+        width: 5cm;
+        background-size: 3px;
+        background: linear-gradient(rgb(236, 213, 213),rgba(59, 29, 29, 0.527)), url(./Label-brochure-1.jpg),linear-gradient(rgb(224, 98, 98),black);
+        z-index: 1;
+        position: absolute;
+        bottom: -2.5cm;
+        right: 63%;
+    }
+    .ikki{
+        background-size: cover;
+        background:linear-gradient(rgba(255, 255, 255, 0.959),black),url(./classroom.jpg) ;
+        height: 3.5cm;
+        position: absolute;
+        width: 5cm;
+        right: 48.99%;
+        bottom: -2.5cm;
+        
+        /* background-color: chartreuse; */
+        /* z-index: 2; */
+    }
+    .uch{
+        background-size: cover;
+        height: 3.5cm;
+        width: 5cm;
+        background:linear-gradient( rgba(206, 240, 240, 0.822),rgb(19, 224, 231)),url(./teacher.jpg);
+        position:absolute;
+        bottom: -2.5cm;
+        right: 36.3%;}
+        .rasm3{
+            position: absolute;
+            right: 0cm;
+            bottom: 0cm;
+        }
+.we{
+    margin: 2cm 0 0.5cm;
+  font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.rasm4{ font-family:'Courier New', Courier, monospace;
+    position: relative;
+    background-color: white;
+    height: 300px;
+}
+.first-img{
+    margin-left: 2cm;
+}
+.first-img b {
+    
+    text-align: center;
+ margin-left: 1.3cm;
+}
+.second-img{
+    position: absolute;
+    margin-left: 10cm;
+    bottom: 2.23cm;
+}
+.third-img{
+position: absolute;
+bottom: 2.23cm;
+margin-left: 18cm;
+}
+.last-img{
+    position: absolute;
+    bottom: 2.23cm;
+    margin-left: 26cm;
+}
+.kuk{ font-family:'Courier New', Courier, monospace;
+    position: relative;
+    background-color: rgba(27, 68, 182, 0.877);
+    height: 110px;
+    width: 80%;
+    margin-left: 3.5cm;
+}
+.medal{
+    position: absolute;
+    margin-top: 0.2cm;
+    margin-left: 1cm;
+}
+.bumm{
+    color: white;
+    font-size: 0.6cm;
+    position: absolute;
+    margin-left: 6cm;
+    margin-top: 1cm;
+}
+.button1:hover{
+    outline:dashed 2px rgba(223, 210, 95, 0.836);
+    border:1px rgb(218, 178, 68) ;
+    cursor: wait;
+    background-color: rgb(116, 116, 236);
+}
+.button1{
+    color: white;
+    margin-left: 23cm;
+    position: absolute;
+    border: solid 1px rgb(240, 151, 88) ;
+    border-radius: 5px;
+    background-color: rgb(236, 150, 88);
+    margin-top: 1cm ;
+    width: 150px;
+    height: 38px;
+}
+.academik{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 0.5cm;
+    font-size: 28px;
+}
+.academik1{
+    font-family:'Courier New', Courier, monospace;
+    text-align:center;
+    font-size:23px;
+    margin-bottom: 0.5cm;
+}
+.calendar1{
+    height: 400pxpx; ;
+    background-color: rgb(242, 255, 255);
+}
+.calendar{
+    margin-left: 2cm;
+}
+.cal{
+    box-sizing: border-box;
+    margin-bottom: 1cm;
+    font-size: 26px;
+    margin-left: 19cm;
+      
+  
+}
+.our{ font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    width: 100%;
+    height: 5cm;
+    background:linear-gradient( rgb(50, 63, 177),rgb(87, 98, 143)),url(./teacher.jpg);
+}
+.our1{ font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+   padding-top: 1cm;
+}
+.son1{
+    padding-top: 1cm;
+    position: absolute;
+    padding-left: 3cm;
+
+}
+.son2{position: absolute;
+    bottom: 1cm;
+    padding-left: 7cm;
+}
+.son3{
+    position: absolute;
+    bottom: 1cm;
+  padding-left: 14cm;  
+}
+.son4{
+  
+bottom: 1cm;
+    padding-left: 24cm;
+    
+}
+.latest{ font-family: 'Courier New', Courier, monospace;
+   margin-top: 5cm;
+    text-align: center;
+}
+.rasmm{position: relative;
+    margin-top: 1cm;
+    height: 500px;
+    /* background-color: red;
+    */
+}
+.rasmm1{
+    position: absolute;
+    float: left;
+   right: 0%;
+    top: 0;
+}
+.rasmm2{
+    size: 500px;
+}
+.vedio{ font-family: 'Courier New', Courier, monospace;
+    margin-top: 1cm;
+    position: relative;
+    height: 300px;
+    background-color: rgb(245, 240, 239);
+
+}
+.watch{
+   padding-top: 0.5cm;
+    margin-left: 4cm;
+    font-size: 1cm;
+    text-align: left;
+    /* border: 2px solid rgb(0, 248, 145); */
+}
+.tex{
+   
+    margin-left: 2cm;
+    margin-top: 1cm;
+
+}
+.you{
+   
+position: absolute;
+right: 0;
+top: 0;
+}
+.button:hover{
+    cursor: progress;
+
+}
+.button{
+    border-radius: 5px;
+    text-decoration: none;
+height: 30px;
+    border: 2px solid chocolate;
+    background-color: chocolate;
+}
+.oxir{
+    text-align: justify;
+    margin-left: 3cm;
+    width: 80%;
+    margin-top: 2cm;
+    height: 200px;
+    background-color: rgba(236, 248, 248, 0.801);
+}
+.undov{
+    margin-left: 15cm;
+    font-size: 2cm;
+    color: rgb(214, 228, 224);
+}
+.oxirgi{position: relative;
+    margin-top: 1cm;
+    height: 200px;
+background-color: rgb(248, 255, 249);
+}
+
+.yigit{position: absolute;
+    top: -2cm;
+    
+   margin-top: 1cm;
+   margin-left: 3cm; 
+}
+.qiz{
+    position: absolute;
+    top: -1cm;
+    margin-top: 0cm;
+    margin-left: 9cm;
+}
+.yigit2{
+    position: absolute;
+    top: -1cm;
+    margin-top: 0cm;
+    margin-left: 15cm;
+}
+.qiz2{
+    position: absolute;
+    top: -1cm;
+    margin-top: 0cm;
+    margin-left: 20cm;
+}
+.yigit3{
+    position: absolute;
+    top: -1cm;
+    margin-top: 0cm;
+    margin-left: 26cm;
+}
+.last{
+    background-color: rgb(19, 50, 190);
+    height: 80px;
+    width: 60%;
+    margin-left: 6cm;
+}
+.form{
+    position: absolute;
+    left: 17cm;
+    
+}
+.butto:hover{
+cursor: move;
+
+}
+.butto{
+  position: absolute;
+  left: 23cm;
+
+}
+.ox{
+    margin-top: 1cm;
+    background-color: darkblue;
+    height: 140px;
+}
+.con{display: inline-block;
+    position: relative;
+    font-size: 0.5cm;
+    position: absolute;
+    left: 9cm;
+
+ 
+}
+.home{
+    display: inline-block;
+    position: relative;
+    font-size: 0.5cm;
+    position: absolute;
+    left: 13cm;
+color: white;
+}
+.bloc{
+    display: inline-block;
+    position: relative;
+    font-size: 0.5cm;
+    position: absolute;
+    left: 17cm;
+
+ color: white;
+}
+.academic{
+    display: inline-block;
+    position: relative;
+    font-size: 0.5cm;
+    position: absolute;
+    left: 22cm;
+color: white;
+ 
+}
